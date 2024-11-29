@@ -11,7 +11,7 @@ let rocketAngle = PI; // Initial rocket angle (pointing down)
 let showGround = false; // Ground visibility flag
 
 function setup() {
-  createCanvas(650, 900);
+  createCanvas(650, 700);
   // Create stars
   for (let i = 0; i < 100; i++) {
     stars.push({ x: random(width), y: random(-height, height) });
